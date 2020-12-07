@@ -1,0 +1,65 @@
+#elementor-panel-elements-wrapper .elementor-element {
+  position: relative;
+}
+#elementor-panel-elements-wrapper .elementor-element .nicon:after {
+  font-family: Roboto, Arial, Helvetica, Verdana, sans-serif;
+  content: "EE";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 1px solid #eceeef;
+  border-radius: 1px;
+  padding: 4px 3px 2px;
+  margin: 2px;
+  font-size: 8px;
+  letter-spacing: 0.1em;
+  font-style: normal;
+}
+#elementor-panel-elements-wrapper .elementor-element:hover .nicon:after {
+  background: #D30C5C;
+  border-color: #D30C5C;
+  color: #ffffff;
+}
+.ee-select2-dropdown .select2-results__option:not(.select2-results__message):not(.select2-results__option--load-more):not(.loading-results) {
+  max-width: 33.3333%;
+  display: inline-block;
+}
+.ee-select2-dropdown .select2-search {
+  display: none;
+}
+.ee-select2-dropdown__option__image img {
+  max-width: 100%;
+  border-radius: 3px;
+}
+.ee-select2-dropdown__option__image:not(:first-child) img {
+  margin-top: 8px;
+}
+.elementor-control-type-ee-query .elementor-control-input-wrapper,
+.elementor-control-type-ee-snazzy .elementor-control-input-wrapper {
+  width: 135px;
+}
+.elementor-control-ee_display_conditions,
+.elementor-control-post_acf_fields {
+  padding: 0 20px 15px;
+}
+.elementor-control-ee_display_conditions label:empty + .elementor-control-input-wrapper,
+.elementor-control-post_acf_fields label:empty + .elementor-control-input-wrapper {
+  margin-top: 0 !important;
+}
+.elementor-control-ee_display_conditions .elementor-control:not(:last-child) {
+  padding-bottom: 0;
+}
+.elementor-control-ee_display_conditions .elementor-control-title {
+  margin-top: 12px;
+}
+.elementor-control-ee_display_conditions .elementor-repeater-row-controls {
+  padding-bottom: 15px;
+}
+#elementor-theme-builder-conditions .elementor-control input[type=text] {
+  border-width: 0;
+  height: 40px;
+  padding: 0 14px;
+  border-color: #e6e9ec;
+  border-radius: 0;
+  background-color: #fff;
+}
